@@ -1,0 +1,1066 @@
+{
+  "data": [
+    {          
+      "date": "Feb 1",
+      "count": 1,
+      "states": [
+        {
+          "first": true,
+          "name": "Iowa",
+          "swing": true,
+          "democrat": true,
+          "republican": false,
+          "caucus": true,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": true,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "701",
+              "percent": "49.9"
+            },
+            "sanders": {
+              "count": "697",
+              "percent": "49.6"
+            }
+          },
+          "delegates": {
+            "clinton": 23,
+            "sanders": 21,
+            "total":   44
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Feb 9",
+      "count": 1,
+      "states": [
+        {
+          "first": true,
+          "name": "New Hampshire",
+          "swing": true,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": true,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "95,252",
+              "percent": "38.0"
+            },
+            "sanders": {
+              "count": "151,584",
+              "percent": "60.4"
+            }
+          },
+          "delegates": {
+            "clinton": 9,
+            "sanders": 15,
+            "total":   24
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Feb 20",
+      "count": 1,
+      "states": [
+        {
+          "first": true,
+          "name": "Nevada",
+          "swing": true,
+          "democrat": false,
+          "republican": true,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "6,316",
+              "percent": "52.6"
+            },
+            "sanders": {
+              "count": "5,678",
+              "percent": "47.3"
+            }
+          },
+          "delegates": {
+            "clinton": 20,
+            "sanders": 15,
+            "total":   35
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Feb 27",
+      "count": 1,
+      "states": [
+        {
+          "first": true,
+          "name": "South Carolina",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "271,514",
+              "percent": "73.5"
+            },
+            "sanders": {
+              "count": "95,977",
+              "percent": "26.0"
+            }
+          },
+          "delegates": {
+            "clinton": 39,
+            "sanders": 14,
+            "total":   53
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Mar 1",
+      "count": 13,
+      "states": [
+        {
+          "first": true,
+          "name": "Alabama",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "309,928",
+              "percent": "77.8"
+            },
+            "sanders": {
+              "count": "76,339",
+              "percent": "19.2"
+            }
+          },
+          "delegates": {
+            "clinton": 44,
+            "sanders": 9,
+            "total":   53
+          }
+        },
+        {
+          "name": "American Samoa",
+          "swing": false,
+          "democrat": false,
+          "republican": false,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "162",
+              "percent": "68.35"
+            },
+            "sanders": {
+              "count": "61",
+              "percent": "25.74"
+            }
+          },
+          "delegates": {
+            "clinton": 4,
+            "sanders": 2,
+            "total":   6
+          }
+        },
+        {
+          "name": "Arkansas",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "144,580",
+              "percent": "66.3"
+            },
+            "sanders": {
+              "count": "64,868",
+              "percent": "29.7"
+            }
+          },
+          "delegates": {
+            "clinton": 22,
+            "sanders": 10,
+            "total":  32
+          }
+        },
+        {
+          "name": "Colorado",
+          "swing": true,
+          "democrat": true,
+          "republican": false,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "43,314",
+              "percent": "40.3"
+            },
+            "sanders": {
+              "count": "72,115",
+              "percent": "59.0"
+            }
+          },
+          "delegates": {
+            "clinton": 28,
+            "sanders": 38,
+            "total":   66
+          }
+        },
+        {
+          "name": "democrat's Abroad",
+          "swing": false,
+          "democrat": false,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "10,689",
+              "percent": "30.92"
+            },
+            "sanders": {
+              "count": "23,779",
+              "percent": "68.79"
+            }
+          },
+          "delegates": {
+            "clinton": 4,
+            "sanders": 9,
+            "total":   13
+          }
+        },
+        {
+          "name": "Georgia",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "543,008",
+              "percent": "71.3"
+            },
+            "sanders": {
+              "count": "214,332",
+              "percent": "28.2"
+            }
+          },
+          "delegates": {
+            "clinton": 73,
+            "sanders": 29,
+            "total":   102
+          }
+        },
+        {
+          "name": "Massachusetts",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": true,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "603,784",
+              "percent": "50.1"
+            },
+            "sanders": {
+              "count": "586,716",
+              "percent": "48.7"
+            }
+          },
+          "delegates": {
+            "clinton": 46,
+            "sanders": 45,
+            "total":   91
+          }
+        },
+        {
+          "name": "Minnesota",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": true,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "73,510",
+              "percent": "38.4"
+            },
+            "sanders": {
+              "count": "118,135",
+              "percent": "61.6"
+            }
+          },
+          "delegates": {
+            "clinton": 31,
+            "sanders": 46,
+            "total":   77
+          }
+        },
+        {
+          "name": "Oklahoma",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": true,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "139,338",
+              "percent": "41.5"
+            },
+            "sanders": {
+              "count": "174,054",
+              "percent": "51.9"
+            }
+          },
+          "delegates": {
+            "clinton": 17,
+            "sanders": 21,
+            "total":   38
+          }
+        },
+        {
+          "name": "Tennessee",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "245,304",
+              "percent": "66.1"
+            },
+            "sanders": {
+              "count": "120,333",
+              "percent": "32.4"
+            }
+          },
+          "delegates": {
+            "clinton": 44,
+            "sanders": 23,
+            "total":   67
+          }
+        },
+        {
+          "name": "Texas",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "935,080",
+              "percent": "65.5"
+            },
+            "sanders": {
+              "count": "475,561",
+              "percent": "33.2"
+            }
+          },
+          "delegates": {
+            "clinton": 147,
+            "sanders": 75,
+            "total":   222
+          }
+        },
+        {
+          "name": "Vermont",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "18,335",
+              "percent": "13.6"
+            },
+            "sanders": {
+              "count": "115,863",
+              "percent": "86.1"
+            }
+          },
+          "delegates": {
+            "clinton": 0,
+            "sanders": 16,
+            "total":   16
+          }
+        },
+        {
+          "name": "Virginia",
+          "swing": true,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "503,358",
+              "percent": "64.3"
+            },
+            "sanders": {
+              "count": "275,507",
+              "percent": "35.2"
+            }
+          },
+          "delegates": {
+            "clinton": 62,
+            "sanders": 33,
+            "total":   95
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Mar 5",
+      "count": 3,
+      "states": [
+        {
+          "first": true,
+          "name": "Louisiana",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "221,615",
+              "percent": "71.1"
+            },
+            "sanders": {
+              "count": "72,240",
+              "percent": "23.2"
+            }
+          },
+          "delegates": {
+            "clinton": 37,
+            "sanders": 14,
+            "total":   51
+          }
+        },
+        {
+          "name": "Nebraska",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "14,340",
+              "percent": "42.9"
+            },
+            "sanders": {
+              "count": "19,120",
+              "percent": "57.1"
+            }
+          },
+          "delegates": {
+            "clinton": 10,
+            "sanders": 15,
+            "total":   25
+          }
+        },
+        {
+          "name": "Kansas",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "12,593",
+              "percent": "32.3"
+            },
+            "sanders": {
+              "count": "26,450",
+              "percent": "67.7"
+            }
+          },
+          "delegates": {
+            "clinton": 10,
+            "sanders": 23,
+            "total":   33
+          }
+        }
+      ]
+    },
+    {
+      "date": "Mar 6",
+      "count": 1,
+      "states": [
+        {
+          "first": true,
+          "name": "Maine",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "1,232",
+              "percent": "35.5"
+            },
+            "sanders": {
+              "count": "2,231",
+              "percent": "64.3"
+            }
+          },
+          "delegates": {
+            "clinton": 9,
+            "sanders": 16,
+            "total":   25
+          }
+        }
+      ]
+    },
+    {
+      "date": "Mar 8",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "Missippi",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "182,447",
+              "percent": "82.6"
+            },
+            "sanders": {
+              "count": "36,348",
+              "percent": "16.5"
+            }
+          },
+          "delegates": {
+            "clinton": 32,
+            "sanders": 4,
+            "total":   36
+          }
+        },
+        {
+          "name": "Michigan",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "576,795",
+              "percent": "48.3"
+            },
+            "sanders": {
+              "count": "595,222",
+              "percent": "49.8"
+            }
+          },
+          "delegates": {
+            "clinton": 63,
+            "sanders": 67,
+            "total":   130
+          }
+        }
+      ]
+    },
+    {
+      "date": "Mar 12",
+      "count": 1,
+      "states": [
+        {
+          "first": true,
+          "name": "Northern Mariana Islands",
+          "swing": false,
+          "democrat": false,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "102",
+              "percent": "53.97"
+            },
+            "sanders": {
+              "count": "65",
+              "percent": "34.39"
+            }
+          },
+          "delegates": {
+            "clinton": 4,
+            "sanders": 2,
+            "total":   6
+          }
+        }
+      ]
+    },
+    {
+      "date": "Mar 15",
+      "count": 5,
+      "states": [
+        {
+          "first": true,
+          "name": "Florida",
+          "swing": true,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "1,097,400",
+              "percent": "64.4"
+            },
+            "sanders": {
+              "count": "566,603",
+              "percent": "33.3"
+            }
+          },
+          "delegates": {
+            "clinton": 141,
+            "sanders": 73,
+            "total":   214
+          }
+        },
+        {
+          "name": "Illinois",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "1,017,006",
+              "percent": "50.5"
+            },
+            "sanders": {
+              "count": "982,017",
+              "percent": "48.7"
+            }
+          },
+          "delegates": {
+            "clinton": 76,
+            "sanders": 73,
+            "total":   156
+          }
+        },
+        {
+          "name": "Missouri",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "310,602",
+              "percent": "49.6"
+            },
+            "sanders": {
+              "count": "309,071",
+              "percent": "49.4"
+            }
+          },
+          "delegates": {
+            "clinton": 34,
+            "sanders": 34,
+            "total":   71
+          }
+        },
+        {
+          "name": "North Carolina",
+          "swing": true,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": true,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "616,383",
+              "percent": "54.6"
+            },
+            "sanders": {
+              "count": "460,316",
+              "percent": "40.8"
+            }
+          },
+          "delegates": {
+            "clinton": 59,
+            "sanders": 45,
+            "total":   107
+          }
+        },
+        {
+          "name": "Ohio",
+          "swing": true,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": true,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "679,266",
+              "percent": "56.5"
+            },
+            "sanders": {
+              "count": "513,549",
+              "percent": "42.7"
+            }
+          },
+          "delegates": {
+            "clinton": 81,
+            "sanders": 62,
+            "total":   143
+          }
+        }
+      ]
+    },
+    {
+      "date": "Mar 22",
+      "count": 3,
+      "states": [
+        {
+          "first": true,
+          "name": "Arizona",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "234,713",
+              "percent": "57.8"
+            },
+            "sanders": {
+              "count": "161,720",
+              "percent": "39.8"
+            }
+          },
+          "delegates": {
+            "clinton": 42,
+            "sanders": 33,
+            "total":   75
+          }
+        },
+        {
+          "name": "Idaho",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": true,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "5,065",
+              "percent": "21.2"
+            },
+            "sanders": {
+              "count": "18,640",
+              "percent": "78.0"
+            }
+          },
+          "delegates": {
+            "clinton": 5,
+            "sanders": 18,
+            "total":   23
+          }
+        },
+        {
+          "name": "Utah",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": true,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": true,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "12,993",
+              "percent": "19.8"
+            },
+            "sanders": {
+              "count": "52,185",
+              "percent": "79.7"
+            }
+          },
+          "delegates": {
+            "clinton": 6,
+            "sanders": 27,
+            "total":   33
+          }
+        }
+      ]
+    },
+    {
+      "date": "Mar 26",
+      "count": 3,
+      "states": [
+        {
+          "first": true,
+          "name": "Alaska",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "99",
+              "percent": "18.4"
+            },
+            "sanders": {
+              "count": "440",
+              "percent": "81.6"
+            }
+          },
+          "delegates": {
+            "clinton": 3,
+            "sanders": 13,
+            "total":   16
+          }
+        },
+        {
+          "name": "Hawaii",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": true,
+          "closed": false,
+          "semiclosed": true,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "10,125",
+              "percent": "30.0"
+            },
+            "sanders": {
+              "count": "23,530",
+              "percent": "69.8"
+            }
+          },
+          "delegates": {
+            "clinton": 8,
+            "sanders": 17,
+            "total":   25
+          }
+        },
+        {
+          "name": "Washington",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": true,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "7,140",
+              "percent": "27.1"
+            },
+            "sanders": {
+              "count": "19,159",
+              "percent": "72.7"
+            }
+          },
+          "delegates": {
+            "clinton": 9,
+            "sanders": 25,
+            "total":   101
+          }
+        }
+      ]
+    },
+    {
+      "date": "Apr 5",
+      "count": 1,
+      "states": [{
+        "first": true,
+        "name": "Wisconsin",
+        "abbr": "wi",
+        "swing": true,
+        "democrat": true,
+        "republican": false,
+        "caucus": false,
+        "closed": false,
+        "semiclosed": false,
+        "semiopen": false,
+        "open": true,
+        "winner": "sanders",
+        "votes": {
+          "clinton": {
+            "count": "434,168",
+            "percent": "56.5"
+          },
+          "sanders": {
+            "count": "567,858",
+            "percent": "43.2"
+          }
+        },
+        "delegates": {
+          "clinton": 38,
+          "sanders": 48,
+          "total": 86
+        }
+      }]
+    }
+  ]
+}

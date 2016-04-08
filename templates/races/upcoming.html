@@ -1,0 +1,45 @@
+                                            {{#each states}}
+                                                <tr class="{{#if caucus}}caucus{{/if}}{{#else}}primary{{/else}}{{#if closed}} closed{{/if}}{{#if semiclosed}} semiclosed{{/if}}{{#if semiopen}} semiopen{{/if}}{{#if open}} open{{/if}}">
+                                                    {{#if first}}<td rowspan="{{../count}}" class="date">{{../date}}</td>{{/if}}
+                                                    <td rowspan="2" class="{{#if democrat}}dem{{/if}}{{#if republican}}rep{{/if}}{{#if swing}}swing{{/if}}">
+                                                    {{#if caucus}}
+                                                        {{#if closed}}
+                                                            <i class="fa fa-circle" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Caucus: Closed"></i>
+                                                        {{/if}}
+                                                        {{#if semiclosed}}
+                                                            <i class="fa fa-times-circle-o" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Caucus: Semi-closed"></i>
+                                                        {{/if}}
+                                                        {{#if semiopen}}
+                                                            <i class="fa fa-dot-circle-o" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Caucus: Semi-Open"></i>
+                                                        {{/if}}
+                                                        {{#if open}}
+                                                            <i class="fa fa-circle-o" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Caucus: Open"></i>
+                                                        {{/if}}
+                                                    {{else}}
+                                                        {{#if closed}}
+                                                            <i class="fa fa-square" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Primary: Closed"></i>
+                                                        {{/if}}
+                                                        {{#if semiclosed}}
+                                                            <i class="fa fa-minus-square-o" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Primary: Semi-closed"></i>
+                                                        {{/if}}
+                                                        {{#if semiopen}}
+                                                            <i class="fa fa-plus-square-o" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Primary: Semi-Open"></i>
+                                                        {{/if}}
+                                                        {{#if open}}
+                                                            <i class="fa fa-square-o" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Primary: Open"></i>
+                                                        {{/if}}
+                                                    {{/if}} {{name}}</td>
+                                                    <td rowspan="2"></td>
+                                                    <td rowspan="2"></td>
+                                                    <td rowspan="2"></td>
+                                                    <td rowspan="2"></td>
+                                                    <td rowspan="2"></td>
+                                                    <td rowspan="2"></td>
+                                                    <td class="clinton">-</td>
+                                                    <td class="sanders">-</td>
+                                                    <td rowspan="2" class="total">{{delegates.total}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2"><input class="slider" type='text' data-slider-min='0' data-slider-max='{{delegates.total}}' data-slider-step='1' data-slider-value='{{delegates.half}}' data-slider-tooltip='hide' data-state='{{abbr}}'/></td>
+                                                </tr>
+                                            {{/each}}

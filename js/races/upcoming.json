@@ -1,0 +1,417 @@
+{
+  "data": [
+    {          
+      "date": "Apr 9",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "Wyoming",
+          "abbr": "wy",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 14,
+            "half":  7
+          }
+        }
+      ]
+    },
+    {          
+      "date": "April 19",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "New York",
+          "abbr": "ny",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 247,
+            "half":  123
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Apr 26",
+      "count": 10,
+      "states": [
+        {
+          "first": true,
+          "name": "Maryland",
+          "abbr": "ml",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 95,
+            "half":  47
+          }
+        },
+        {
+          "name": "Connecticut",
+          "abbr": "cn",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 55,
+            "half":  27
+          }
+        },
+        {
+          "name": "Delaware",
+          "abbr": "dw",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 21,
+            "half":  10
+          }
+        },
+        {
+          "name": "Pennsylvania",
+          "abbr": "pa",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 189,
+            "half":  94
+          }
+        },
+        {
+          "name": "Rhode Island",
+          "abbr": "ri",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": true,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 24,
+            "half":  12
+          }
+        }
+      ]
+    },
+    {          
+      "date": "May 3",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "Indiana",
+          "abbr": "in",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "delegates": {
+            "total": 83,
+            "half":  41
+          }
+        }
+      ]
+    },
+    {          
+      "date": "May 7",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "Guam",
+          "abbr": "gu",
+          "swing": false,
+          "democrat": false,
+          "republican": false,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 7,
+            "half":  3
+          }
+        }
+      ]
+    },
+    {          
+      "date": "May 10",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "West Virginia",
+          "abbr": "wv",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": true,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 29,
+            "half":  14
+          }
+        }
+      ]
+    },
+    {          
+      "date": "May 17",
+      "count": 4,
+      "states": [
+        {
+          "first": true,
+          "name": "Kentucky",
+          "abbr": "kt",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 55,
+            "half":  27
+          }
+        },
+        {
+          "name": "Oregon",
+          "abbr": "or",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 61,
+            "half":  30
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Jun 4",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "Vigin Islands",
+          "abbr": "vi",
+          "swing": false,
+          "democrat": false,
+          "republican": false,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 7,
+            "half":  3
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Jun 5",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "Puerto Rico",
+          "abbr": "pr",
+          "swing": false,
+          "democrat": false,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "delegates": {
+            "total": 60,
+            "half":  30
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Jun 7",
+      "count": 12,
+      "states": [
+        {
+          "first": true,
+          "name": "California",
+          "abbr": "ca",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": true,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 475,
+            "half":  237
+          }
+        },
+        {
+          "name": "Montana",
+          "abbr": "mt",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "delegates": {
+            "total": 21,
+            "half":  10
+          }
+        },
+        {
+          "name": "New Jersey",
+          "abbr": "nj",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 126,
+            "half":  63
+          }
+        },
+        {
+          "name": "North Dakota",
+          "abbr": "nd",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": true,
+          "delegates": {
+            "total": 18,
+            "half":  9
+          }
+        },
+        {
+          "name": "New Mexico",
+          "abbr": "nm",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 34,
+            "half":  17
+          }
+        },
+        {
+          "name": "South Dakota",
+          "abbr": "sd",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": false,
+          "closed": false,
+          "semiclosed": false,
+          "semiopen": true,
+          "open": false,
+          "delegates": {
+            "total": 20,
+            "half":  10
+          }
+        }
+      ]
+    },
+    {          
+      "date": "Jun 14",
+      "count": 2,
+      "states": [
+        {
+          "first": true,
+          "name": "District of Columbia",
+          "abbr": "dc",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "delegates": {
+            "total": 20,
+            "half":  10
+          }
+        }
+      ]
+    }
+  ]
+}
