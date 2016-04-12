@@ -1,4 +1,3 @@
-import {template} from '../dist/footer.js';
 import {observe} from '../js/Observe.js';
 
 /**
@@ -23,11 +22,23 @@ export default class Footer {
 
     // Only need to observe one of these since the other three are tightly coupled
     // to this component and will be updated with the changes call.
-    this.clintonDelegates = observe(this.clintonDelegates, (changes) => {
-      changes.forEach( (change) => {
-        element.html('');
-        element.append($(template({clintonDelegates: this.clintonDelegates, sandersDelegates: this.sandersDelegates, total: this.total})));
-      });
+    this.clintonDelegates = observe(this.clintonDelegates, () => {
+      element.html('');
+      element.append(`
+        <tr class="totals">
+          <td>Total</td>
+          <td></td>
+          <td></td>
+          <td class="tcvotes"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="tsvotes"></td>
+          <td class="tclinton" data-rep="${this.clintonDelegates.rep}" data-dem="${this.clintonDelegates.dem}">${this.clintonDelegates.total}</td>
+          <td class="tsanders" data-rep="${this.sandersDelegates.rep}" data-dem="${this.sandersDelegates.dem}">${this.sandersDelegates.total}</td>
+          <td class="ttotal">${this.total}</td>
+        </tr>
+      `);
     });
   }
 }

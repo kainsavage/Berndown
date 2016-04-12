@@ -1,29 +1,6 @@
 {
   "data": [
     {          
-      "date": "Apr 9",
-      "count": 2,
-      "states": [
-        {
-          "first": true,
-          "name": "Wyoming",
-          "abbr": "wy",
-          "swing": false,
-          "democrat": false,
-          "republican": true,
-          "caucus": true,
-          "closed": true,
-          "semiclosed": false,
-          "semiopen": false,
-          "open": false,
-          "delegates": {
-            "total": 14,
-            "half":  7
-          }
-        }
-      ]
-    },
-    {          
       "date": "April 19",
       "count": 2,
       "states": [

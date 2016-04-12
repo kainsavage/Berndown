@@ -1061,6 +1061,41 @@
           "total": 86
         }
       }]
+    },
+    {          
+      "date": "Apr 9",
+      "count": 1,
+      "states": [
+        {
+          "first": true,
+          "name": "Wyoming",
+          "abbr": "wy",
+          "swing": false,
+          "democrat": false,
+          "republican": true,
+          "caucus": true,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "sanders",
+          "votes": {
+            "clinton": {
+              "count": "124",
+              "percent": "44.3"
+            },
+            "sanders": {
+              "count": "156",
+              "percent": "55.7"
+            }
+          },
+          "delegates": {
+            "clinton": 7,
+            "sanders": 7,
+            "total": 14
+          }
+        }
+      ]
     }
   ]
 }
