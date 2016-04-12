@@ -15,7 +15,7 @@ export default class Berndown {
    * Default constructor that creates all the subcomponents required by this module.
    */
   constructor() {
-    this.element = $(template());
+    this.element = template();
 
     // Context elements; we only need these for the instantiation
     // of this module's components.
