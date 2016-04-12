@@ -1,5 +1,4 @@
 import {getParameterByName} from '../js/QueryStringHelper.js';
-import {template} from '../dist/Upcoming.js';
 
 export default class UpcomingRace {
   constructor(raceDate, topNav, footer, refreshEl, fastForwardEl) {
