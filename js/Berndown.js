@@ -37,6 +37,6 @@ export default class Berndown {
   }
 }
 
-$(document).ready(function() {
+$(document).ready( () => {
   let berndown = new Berndown();
 });

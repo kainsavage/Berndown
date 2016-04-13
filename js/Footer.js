@@ -22,7 +22,7 @@ export default class Footer {
 
     // Only need to observe one of these since the other three are tightly coupled
     // to this component and will be updated with the changes call.
-    this.clintonDelegates = observe(this.clintonDelegates, () => {
+    this.clintonDelegates = observe(this.clintonDelegates, async () => {
       element.html('');
       element.append(`
         <tr class="totals">
