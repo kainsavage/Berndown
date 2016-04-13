@@ -3,12 +3,12 @@
  * 
  * @param(Object)   obj The object to observe
  * @param(Function) callback The callback to call when the observed
- *                  object is modified. This really should be async.
+ *                  object is modified.
  * @return(Objecct) The wrapped object to observe
  *
  * Example usage:
  *   let foo = {bar: 1};
- *   foo = observe(foo, async () => { console.log(foo.bar); });
+ *   foo = observe(foo, () => { console.log(foo.bar); });
  *   foo.bar = 2; // Should log 2
  */
 export function observe(obj, callback) {

@@ -18,7 +18,7 @@ export default class TopNav {
       unpledged: 0
     };
 
-    this.values = observe(this.values, async () => {
+    this.values = observe(this.values, () => {
       element.html('');
       element.append(`
         <div class="clinton-pic navbar-left"><div></div></div>
