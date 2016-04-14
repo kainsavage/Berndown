@@ -33,10 +33,10 @@ export function observe(obj, callback) {
         },
         set(newValue) {
           let oldValue = obj[key];
+          obj[key] = newValue;
           if (oldValue !== newValue) {
             callback(key, newValue, oldValue);
           }
-          return obj[key] = newValue;
         }
       });
     }
