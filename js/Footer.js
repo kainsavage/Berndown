@@ -20,25 +20,38 @@ export default class Footer {
     };
     this.total = 0;
 
-    // Only need to observe one of these since the other three are tightly coupled
-    // to this component and will be updated with the changes call.
-    this.clintonDelegates = observe(this.clintonDelegates, () => {
-      element.html('');
-      element.append(`
-        <tr class="totals">
-          <td>Total</td>
-          <td></td>
-          <td></td>
-          <td class="tcvotes"></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td class="tsvotes"></td>
-          <td class="tclinton" data-rep="${this.clintonDelegates.rep}" data-dem="${this.clintonDelegates.dem}">${this.clintonDelegates.total}</td>
-          <td class="tsanders" data-rep="${this.sandersDelegates.rep}" data-dem="${this.sandersDelegates.dem}">${this.sandersDelegates.total}</td>
-          <td class="ttotal">${this.total}</td>
-        </tr>
-      `);
+    this.element = element;
+    this.element.append(new FooterTemplate().element);
+
+    this.clintonDelegates = observe(this.clintonDelegates, (name, newValue, oldValuel) => {
+      this.element.find('.tclinton').attr('data-rep', this.clintonDelegates.rep);
+      this.element.find('.tclinton').attr('data-dem', this.clintonDelegates.dem);
+      this.element.find('.tclinton').html(this.clintonDelegates.total);
     });
+    this.sandersDelegates = observe(this.sandersDelegates, () => {
+      this.element.find('.tsanders').attr('data-rep', this.sandersDelegates.rep);
+      this.element.find('.tsanders').attr('data-dem', this.sandersDelegates.dem);
+      this.element.find('.tsanders').html(this.sandersDelegates.total);
+    });
+  }
+}
+
+class FooterTemplate {
+  constructor() {
+    this.element = $(`
+      <tr class="totals">
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td class="tcvotes"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="tsvotes"></td>
+        <td class="tclinton" data-rep="" data-dem=""></td>
+        <td class="tsanders" data-rep="" data-dem=""></td>
+        <td class="ttotal">${this.total}</td>
+      </tr>
+    `);
   }
 }
