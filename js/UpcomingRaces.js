@@ -1,4 +1,3 @@
-import {fetch} from '../js/FetchHelper.js';
 import {getParameterByName} from '../js/QueryStringHelper.js';
 
 import UpcomingRace from '../js/UpcomingRace.js';
@@ -40,9 +39,9 @@ export default class UpcomingRaces {
    * Asynchronous function to render the upcoming races.
    */
   async render() {
-    let data = await fetch('../js/races/upcoming.json');
+    let data = await $.getJSON('../js/races/upcoming.json');
 
-    $(data).each( (index,value) => { 
+    $(data.data).each( (index,value) => { 
       this.races.push(new UpcomingRace(value, this.topNav, this.footer, this.refreshEl, this.fastForwardEl, this.edited));
     });
 

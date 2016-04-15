@@ -1,4 +1,3 @@
-import {fetch} from '../js/FetchHelper.js';
 import DoneRace from '../js/DoneRace.js';
 
 /**
@@ -30,9 +29,9 @@ export default class DoneRaces {
    * data to load.
    */
   async render() {
-    let data = await fetch('../js/races/done.json');
+    let data = await $.getJSON('../js/races/done.json');
 
-    $(data).each( (index,value) => { 
+    $(data.data).each( (index,value) => { 
       this.races.push(new DoneRace(this.topNav, this.footer, value));
     });
 
