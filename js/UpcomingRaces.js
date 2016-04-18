@@ -91,8 +91,8 @@ export default class UpcomingRaces {
             sanders = parseInt($(value).closest('tr').prev('tr').find('.sanders').text());
 
         if (!isNaN(max) && !isNaN(clinton) && !isNaN(sanders)) {
-          this.topNav.values.clintonDelegates -= clinton;
-          this.topNav.values.sandersDelegates -= sanders;
+          this.topNav.clintonDelegates -= clinton;
+          this.topNav.sandersDelegates -= sanders;
           $(value).closest('tr').prev('tr').find('.clinton').text('-');
           $(value).closest('tr').prev('tr').find('.sanders').text('-');
         }
@@ -116,15 +116,15 @@ export default class UpcomingRaces {
             sanders = parseInt($(value).closest('tr').prev('tr').find('.sanders').text());
 
         if (!isNaN(clinton) && !isNaN(sanders)) {
-          this.topNav.values.clintonDelegates -= clinton;
-          this.topNav.values.sandersDelegates -= sanders;
+          this.topNav.clintonDelegates -= clinton;
+          this.topNav.sandersDelegates -= sanders;
         }
 
         if (!isNaN(val) && !isNaN(max)) {
           $(value).closest('tr').prev('tr').find('.clinton').text(val);
           $(value).closest('tr').prev('tr').find('.sanders').text(max - val);
-          this.topNav.values.clintonDelegates += val;
-          this.topNav.values.sandersDelegates += max - val;
+          this.topNav.clintonDelegates += val;
+          this.topNav.sandersDelegates += max - val;
         }
       });
     });
