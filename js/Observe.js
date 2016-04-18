@@ -1,46 +1,40 @@
 /**
- * Observes an object and calls callback whenever a change is made.
- * 
- * @param(Object)   obj The object to observe
- * @param(Function) callback The callback to call when the observed
- *                  object is modified.
- * @return(Objecct) The wrapped object to observe
+ * Creates a new key on the given object with provided 
+ * getter/setter callbacks to observe.
  *
- * Example usage:
- *   let foo = {bar: 1};
- *   foo = observe(foo, () => { console.log(foo.bar); });
- *   foo.bar = 2; // Should log 2
+ * In general, this should be used in the constructor of
+ * a class to define member values on which you would like
+ * to observe.
+ *
+ * Example:
+ *   class Foo {
+ *     constructor() {
+ *       observable(this,'bar',
+ *         (old,new) => console.log('set'),
+ *         () => console.log('get')
+ *       );
+ *     }
+ *   }
+ *   new Foo();
+ *   foo.bar = 1; // logs 'set'
+ *   let baz = foo.bar; // logs 'get'
  */
-export function observe(obj, callback) {
-
-  let watchedObj = {};
-  watchedObj.__proto__ = obj.__proto__;
-
-  Object.keys(obj).forEach( (key) => {
-    let descriptor = Object.getOwnPropertyDescriptor(obj, key);
-    if (!descriptor.writable) {
-      Object.defineProperty(watchedObj, key, {
-        enumerable: true,
-        get() {
-          return obj[key];
-        }
-      });
-    } else {
-      Object.defineProperty(watchedObj, key, {
-        enumerable: true,
-        get() {
-          return obj[key];
-        },
-        set(newValue) {
-          let oldValue = obj[key];
-          obj[key] = newValue;
-          if (oldValue !== newValue) {
-            callback(key, newValue, oldValue);
-          }
-        }
-      });
+export function observable(obj,name,setter,getter) {
+  Object.defineProperty(obj,name,{
+    set(val) {
+      let old = this['_' + name];
+      this['_' + name] = val;
+      if(setter && typeof setter === 'function') {
+        setter(old,val);
+      }
+    }, 
+    get() {
+      if(getter && typeof getter === 'function') {
+        getter();
+      }
+      return this['_' + name]; 
     }
   });
 
-  return Object.seal(watchedObj);
+  obj[name] = 0;
 }
