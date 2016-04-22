@@ -45,7 +45,7 @@ export function observable(obj,name,setter=()=>{},getter=()=>{}) {
  * Example:
  *   class Foo {
  *     constructor() {
- *       observable(this,'bar',
+ *       observableArray(this,'bar',
  *         (added) => console.log(added),
  *         (removed) => console.log(removed)
  *       );
@@ -59,6 +59,12 @@ export function observableArray(obj,name,adder=()=>{},subtracter=()=>{}) {
   obj[name] = new ObservableArray(adder,subtracter);
 }
 
+/**
+ * Helper subclass of Array that allows for adder/subtracter
+ * callbacks that are invoked when an element is added or
+ * removed from the array. Otherwise, instances of an ObservableArray
+ * are exactly like instances of Array.
+ */
 class ObservableArray extends Array {
   constructor(adder,subtracter) {
     super();
