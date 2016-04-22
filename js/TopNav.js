@@ -22,8 +22,6 @@ export default class TopNav {
       this.element.find('#remaining').html(`(${this.remaining} remaining; ${this.unpledged} unpledged)`);
     });
 
-    observableArray(this,'arr',() => {}, () => {});
-
     this.total = 0;
     this.unpledged = 0;
 

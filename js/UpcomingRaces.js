@@ -23,11 +23,11 @@ export default class UpcomingRaces {
     this.refreshEl.hide();
     this.fastForwardEl.show();
 
-    this.refreshEl.on('click', () => { this.refresh(); });
-    this.fastForwardEl.on('click', () => { this.fastForward(); });
-    this.saveEl.on('click', () => { this.saveProjections(); });
+    this.refreshEl.on('click', () => this.refresh() );
+    this.fastForwardEl.on('click', () => this.fastForward() );
+    this.saveEl.on('click', () => this.saveProjections() );
 
-    observableArray(this,'races',(race) => { this.element.append(race.element); });
+    observableArray(this,'races',(race) => this.element.append(race.element) );
 
     // Technically, this is an async call which constructors do not
     // allow, but since we are not awaiting its return, it can be
@@ -42,9 +42,9 @@ export default class UpcomingRaces {
   async render() {
     let data = await $.getJSON('../js/races/upcoming.json');
 
-    data.data.forEach( (value) => { 
-      this.races.push(new UpcomingRace(value, this.topNav, this.footer, this.refreshEl, this.fastForwardEl, this.edited));
-    });
+    data.data.forEach( (value) => this.races.push(
+      new UpcomingRace(value, this.topNav, this.footer, this.refreshEl, this.fastForwardEl, this.edited)
+    ));
   }
 
   /**

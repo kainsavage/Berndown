@@ -13,13 +13,10 @@ export default class DoneRaces {
     this.footer = footer;
     this.element = el;
     this.toggle = toggle;
-    this.toggle.on('click', () => { this.hideCompleted(); });
+    this.toggle.on('click', () => this.hideCompleted() );
     this.toggle.popover();
 
-    observableArray(this,'races',
-      (race) => this.element.append(race.element), 
-      (race) => race.element.remove()
-    );
+    observableArray(this,'races', (race) => this.element.append(race.element));
 
     // Technically, this is an async call which constructors do not
     // allow, but since we are not awaiting its return, it can be
@@ -35,9 +32,9 @@ export default class DoneRaces {
   async render() {
     let data = await $.getJSON('../js/races/done.json');
 
-    data.data.forEach( (value) => { 
-      this.races.push(new DoneRace(this.topNav, this.footer, value));
-    });
+    data.data.forEach( (value) => this.races.push(
+      new DoneRace(this.topNav, this.footer, value)
+    ));
   }
 
   /**

@@ -15,7 +15,7 @@
  *       );
  *     }
  *   }
- *   new Foo();
+ *   let foo = new Foo();
  *   foo.bar = 1; // logs 'set'
  *   let baz = foo.bar; // logs 'get'
  */
@@ -38,6 +38,27 @@ export function observable(obj,name,setter,getter) {
   });
 }
 
+/**
+ * Creates a new key on the given object with provided
+ * adder/subtracter callbacks to observe.
+ *
+ * In general, this should be used in the constructor of
+ * a class to define member arrays on which you would like
+ * to observe.
+ *
+ * Example:
+ *   class Foo {
+ *     constructor() {
+ *       observable(this,'bar',
+ *         (added) => console.log(added),
+ *         (removed) => console.log(removed)
+ *       );
+ *     }
+ *   }
+ *   let foo = new Foo();
+ *   foo.bar.push('test'); // logs 'test'
+ *   foo.bar.remove('test'); // logs 'test'
+ */
 export function observableArray(obj,name,adder,subtracter) {
   obj[name] = new ObservableArray(adder,subtracter);
 }
