@@ -1,4 +1,5 @@
 import DoneRace from '../js/DoneRace.js';
+import {observableArray} from '../js/Observe.js';
 
 /**
  * Module for handling everything to do with a done race.
@@ -15,7 +16,10 @@ export default class DoneRaces {
     this.toggle.on('click', () => { this.hideCompleted(); });
     this.toggle.popover();
 
-    this.races = [];
+    observableArray(this,'races',
+      (race) => this.element.append(race.element), 
+      (race) => race.element.remove()
+    );
 
     // Technically, this is an async call which constructors do not
     // allow, but since we are not awaiting its return, it can be
@@ -31,12 +35,8 @@ export default class DoneRaces {
   async render() {
     let data = await $.getJSON('../js/races/done.json');
 
-    $(data.data).each( (index,value) => { 
+    data.data.forEach( (value) => { 
       this.races.push(new DoneRace(this.topNav, this.footer, value));
-    });
-
-    $(this.races).each( (index,value) => {
-      this.element.append(value.element);
     });
   }
 

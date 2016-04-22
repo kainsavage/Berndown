@@ -1,4 +1,4 @@
-import {observable} from '../js/Observe.js';
+import {observable,observableArray} from '../js/Observe.js';
 
 /**
  * Module for calculating delegates and votes for both candidates.
@@ -21,6 +21,8 @@ export default class TopNav {
     observable(this,'total',() => {
       this.element.find('#remaining').html(`(${this.remaining} remaining; ${this.unpledged} unpledged)`);
     });
+
+    observableArray(this,'arr',() => {}, () => {});
 
     this.total = 0;
     this.unpledged = 0;

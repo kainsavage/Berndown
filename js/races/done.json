@@ -1096,6 +1096,41 @@
           }
         }
       ]
+    },
+    {          
+      "date": "April 19",
+      "count": 1,
+      "states": [
+        {
+          "first": true,
+          "name": "New York",
+          "abbr": "ny",
+          "swing": false,
+          "democrat": true,
+          "republican": false,
+          "caucus": false,
+          "closed": true,
+          "semiclosed": false,
+          "semiopen": false,
+          "open": false,
+          "winner": "clinton",
+          "votes": {
+            "clinton": {
+              "count": "1,037,344",
+              "percent": "57.9"
+            },
+            "sanders": {
+              "count": "752,739",
+              "percent": "42.1"
+            }
+          },
+          "delegates": {
+            "clinton": 139,
+            "sanders": 106,
+            "total": 247
+          }
+        }
+      ]
     }
   ]
 }
